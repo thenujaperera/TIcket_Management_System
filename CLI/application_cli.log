@@ -1,0 +1,228 @@
+Dec 12, 2024 10:20:31 AM org.ticketmanagement.cli.config.Configuration loadConfiguration
+WARNING: Error loading configuration: config_cli.json (The system cannot find the file specified)
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.config.Configuration saveConfiguration
+INFO: Configuration saved successfully!
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-10] released ticket: [Vendor-10-T1], Remaining tickets in pool: 1
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-10-T1], Remaining tickets in pool: 0
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-3] released ticket: [Vendor-3-T1], Remaining tickets in pool: 1
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-8] released ticket: [Vendor-8-T1], Remaining tickets in pool: 2
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-1] released ticket: [Vendor-1-T1], Remaining tickets in pool: 3
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-9] released ticket: [Vendor-9-T1], Remaining tickets in pool: 4
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-7] released ticket: [Vendor-7-T1], Remaining tickets in pool: 5
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-4] released ticket: [Vendor-4-T1], Remaining tickets in pool: 6
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-5] released ticket: [Vendor-5-T1], Remaining tickets in pool: 7
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-2] released ticket: [Vendor-2-T1], Remaining tickets in pool: 8
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-6] released ticket: [Vendor-6-T1], Remaining tickets in pool: 9
+Dec 12, 2024 10:20:49 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-3-T1], Remaining tickets in pool: 8
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-6] released ticket: [Vendor-6-T2], Remaining tickets in pool: 9
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-10] released ticket: [Vendor-10-T2], Remaining tickets in pool: 10
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-8] released ticket: [Vendor-8-T2], Remaining tickets in pool: 11
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-9] released ticket: [Vendor-9-T2], Remaining tickets in pool: 12
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-1] released ticket: [Vendor-1-T2], Remaining tickets in pool: 13
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-4] released ticket: [Vendor-4-T2], Remaining tickets in pool: 14
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-5] released ticket: [Vendor-5-T2], Remaining tickets in pool: 15
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-3] released ticket: [Vendor-3-T2], Remaining tickets in pool: 16
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-7] released ticket: [Vendor-7-T2], Remaining tickets in pool: 17
+Dec 12, 2024 10:20:50 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-2] released ticket: [Vendor-2-T2], Remaining tickets in pool: 18
+Dec 12, 2024 10:20:51 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-8-T1], Remaining tickets in pool: 17
+Dec 12, 2024 10:20:51 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-1-T1], Remaining tickets in pool: 16
+Dec 12, 2024 10:20:53 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-9-T1], Remaining tickets in pool: 15
+Dec 12, 2024 10:20:53 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-7-T1], Remaining tickets in pool: 14
+Dec 12, 2024 10:20:55 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-4-T1], Remaining tickets in pool: 13
+Dec 12, 2024 10:20:55 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-5-T1], Remaining tickets in pool: 12
+Dec 12, 2024 10:20:57 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-2-T1], Remaining tickets in pool: 11
+Dec 12, 2024 10:20:57 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-6-T1], Remaining tickets in pool: 10
+Dec 12, 2024 10:20:59 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-6-T2], Remaining tickets in pool: 9
+Dec 12, 2024 10:20:59 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-10-T2], Remaining tickets in pool: 8
+Dec 12, 2024 10:21:01 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-8-T2], Remaining tickets in pool: 7
+Dec 12, 2024 10:21:01 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-9-T2], Remaining tickets in pool: 6
+Dec 12, 2024 10:21:03 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-1-T2], Remaining tickets in pool: 5
+Dec 12, 2024 10:21:03 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-4-T2], Remaining tickets in pool: 4
+Dec 12, 2024 10:21:05 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-5-T2], Remaining tickets in pool: 3
+Dec 12, 2024 10:21:05 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-3-T2], Remaining tickets in pool: 2
+Dec 12, 2024 10:21:07 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-7-T2], Remaining tickets in pool: 1
+Dec 12, 2024 10:21:07 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-2-T2], Remaining tickets in pool: 0
+Dec 12, 2024 10:21:09 AM org.ticketmanagement.cli.Main startProgram
+INFO: All tickets processed. Program terminated.
+Dec 12, 2024 11:23:45 AM org.ticketmanagement.cli.config.Configuration loadConfiguration
+INFO: Configuration loaded successfully!
+
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.config.Configuration saveConfiguration
+INFO: Configuration saved successfully!
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-5] released ticket: [Vendor-5-T1], Remaining tickets in pool: 1
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-8] released ticket: [Vendor-8-T1], Remaining tickets in pool: 2
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-2] released ticket: [Vendor-2-T1], Remaining tickets in pool: 3
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-10] released ticket: [Vendor-10-T1], Remaining tickets in pool: 4
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-6] released ticket: [Vendor-6-T1], Remaining tickets in pool: 5
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-7] released ticket: [Vendor-7-T1], Remaining tickets in pool: 6
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-9] released ticket: [Vendor-9-T1], Remaining tickets in pool: 7
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-3] released ticket: [Vendor-3-T1], Remaining tickets in pool: 8
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-1] released ticket: [Vendor-1-T1], Remaining tickets in pool: 9
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-4] released ticket: [Vendor-4-T1], Remaining tickets in pool: 10
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-5-T1], Remaining tickets in pool: 9
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-3] bought ticket: [Vendor-8-T1], Remaining tickets in pool: 8
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-5] bought ticket: [Vendor-2-T1], Remaining tickets in pool: 7
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-4] bought ticket: [Vendor-10-T1], Remaining tickets in pool: 6
+Dec 12, 2024 11:24:04 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-6-T1], Remaining tickets in pool: 5
+Dec 12, 2024 11:24:06 AM org.ticketmanagement.cli.Main startProgram
+INFO: All tickets processed. Program terminated.
+Dec 12, 2024 11:44:04 AM org.ticketmanagement.cli.Main getValidChoice
+WARNING: Invalid Input: Application requires an integer
+Dec 12, 2024 11:46:29 AM org.ticketmanagement.cli.config.Configuration loadConfiguration
+INFO: Configuration loaded successfully!
+
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-10] released ticket: [Vendor-10-T1], Remaining tickets in pool: 1
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-2] released ticket: [Vendor-2-T1], Remaining tickets in pool: 2
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-6] released ticket: [Vendor-6-T1], Remaining tickets in pool: 3
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-8] released ticket: [Vendor-8-T1], Remaining tickets in pool: 4
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-4] released ticket: [Vendor-4-T1], Remaining tickets in pool: 5
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-3] released ticket: [Vendor-3-T1], Remaining tickets in pool: 6
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-1] released ticket: [Vendor-1-T1], Remaining tickets in pool: 7
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-5] released ticket: [Vendor-5-T1], Remaining tickets in pool: 8
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-9] released ticket: [Vendor-9-T1], Remaining tickets in pool: 9
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-7] released ticket: [Vendor-7-T1], Remaining tickets in pool: 10
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-10-T1], Remaining tickets in pool: 9
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-3] bought ticket: [Vendor-2-T1], Remaining tickets in pool: 8
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-4] bought ticket: [Vendor-6-T1], Remaining tickets in pool: 7
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-5] bought ticket: [Vendor-8-T1], Remaining tickets in pool: 6
+Dec 12, 2024 11:46:33 AM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-4-T1], Remaining tickets in pool: 5
+Dec 12, 2024 11:46:35 AM org.ticketmanagement.cli.Main startProgram
+INFO: All tickets processed. Program terminated.
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.config.Configuration saveConfiguration
+INFO: Configuration saved successfully!
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.tickets.StandardTicketPool buyTicket
+INFO: TicketPool empty. Customer thread will wait for ticket to be released ....
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-5] released ticket: [Vendor-5-T1], Remaining tickets in pool: 1
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-5-T1], Remaining tickets in pool: 0
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-2] released ticket: [Vendor-2-T1], Remaining tickets in pool: 1
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-1] released ticket: [Vendor-1-T1], Remaining tickets in pool: 2
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-4] released ticket: [Vendor-4-T1], Remaining tickets in pool: 3
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-3] released ticket: [Vendor-3-T1], Remaining tickets in pool: 4
+Jan 13, 2025 2:44:15 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-2-T1], Remaining tickets in pool: 3
+Jan 13, 2025 2:44:16 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-5] released ticket: [Vendor-5-T2], Remaining tickets in pool: 4
+Jan 13, 2025 2:44:16 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-1] released ticket: [Vendor-1-T2], Remaining tickets in pool: 5
+Jan 13, 2025 2:44:16 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-2] released ticket: [Vendor-2-T2], Remaining tickets in pool: 6
+Jan 13, 2025 2:44:16 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-3] released ticket: [Vendor-3-T2], Remaining tickets in pool: 7
+Jan 13, 2025 2:44:16 PM org.ticketmanagement.cli.threads.TicketVendor run
+INFO: Vendor [Vendor-4] released ticket: [Vendor-4-T2], Remaining tickets in pool: 8
+Jan 13, 2025 2:44:18 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-1-T1], Remaining tickets in pool: 7
+Jan 13, 2025 2:44:18 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-4-T1], Remaining tickets in pool: 6
+Jan 13, 2025 2:44:21 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-3-T1], Remaining tickets in pool: 5
+Jan 13, 2025 2:44:21 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-5-T2], Remaining tickets in pool: 4
+Jan 13, 2025 2:44:24 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-1] bought ticket: [Vendor-1-T2], Remaining tickets in pool: 3
+Jan 13, 2025 2:44:24 PM org.ticketmanagement.cli.threads.Customer run
+INFO: Customer [Customer-2] bought ticket: [Vendor-2-T2], Remaining tickets in pool: 2
+Jan 13, 2025 2:44:27 PM org.ticketmanagement.cli.Main startProgram
+INFO: All tickets processed. Program terminated.
