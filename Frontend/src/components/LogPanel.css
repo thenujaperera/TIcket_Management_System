@@ -1,0 +1,14 @@
+.logs {
+    max-height: 150px;
+    overflow-y: auto;
+    background: #2c2f33;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.logs p {
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+.config-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for the first row */
+  gap: 20px;
+  justify-content: center; /* Center the grid */
+  margin: auto;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  color: #cccccc;
+}
+
+.input-group input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #2c2f33;
+  color: white;
+}
+
+/* Adjust the grid layout for 3 items on the second row */
+.config-panel > .input-group:nth-child(n+5) {
+  grid-column: span 1; /* Make sure the second row has 3 items */
+}

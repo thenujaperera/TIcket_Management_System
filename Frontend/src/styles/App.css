@@ -1,0 +1,31 @@
+body {
+  font-family: 'Gg Sans', Arial, sans-serif;
+  background: #2c2f33;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  
+  max-width: 800px;
+  margin: 25px auto 0;
+  padding: 2cqb;
+  background: #23272a;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.section {
+  margin: 20px 0;
+}

@@ -1,0 +1,16 @@
+.ticket-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #2c2f33;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .ticket-status p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
